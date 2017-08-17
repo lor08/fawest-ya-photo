@@ -1,0 +1,24 @@
+{
+    "name": "lor08/ya-photo",
+    "description": "Storage to Yandex Foto",
+    "type": "library",
+    "keywords": ["api", "yandex", "fotki"],
+    "license": "The MIT License (MIT)",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/lor08/php-yandex-fotki"
+        }
+    ],
+    "authors": [
+        {
+            "name": "lor08",
+            "email": "spike.09@ya.ru"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {
+        "php": ">=5.4.0",
+        "yandex/fotki": "dev-master"
+    }
+}

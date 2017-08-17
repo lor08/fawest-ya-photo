@@ -1,0 +1,25 @@
+{
+    "name": "fawest/ya-photo",
+    "description": "Storage to Yandex Foto",
+    "type": "library",
+    "keywords": ["api", "yandex", "fotki"],
+    "license": "The MIT License (MIT)",
+    "authors": [
+        {
+            "name": "fawest",
+            "email": "spike.09@ya.ru"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+	        "Fawest\\YaPhoto\\": "src"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}

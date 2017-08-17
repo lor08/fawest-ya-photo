@@ -1,0 +1,69 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "8064a7116a2770cc36bf647d29c28dee",
+    "content-hash": "a931d970c00f0eaaf3184fc1d8cd392c",
+    "packages": [
+        {
+            "name": "yandex/fotki",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lor08/php-yandex-fotki.git",
+                "reference": "2485e250c608a5ff2dde1b90df7601b6d21dbe80"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lor08/php-yandex-fotki/zipball/2485e250c608a5ff2dde1b90df7601b6d21dbe80",
+                "reference": "2485e250c608a5ff2dde1b90df7601b6d21dbe80",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Yandex\\Fotki\\": "src/"
+                }
+            },
+            "license": [
+                "The MIT License (MIT)"
+            ],
+            "authors": [
+                {
+                    "name": "Dmitry Kuznetsov",
+                    "email": "kuznetsov2d@gmail.com",
+                    "homepage": "http://kuznetsov.io"
+                }
+            ],
+            "description": "PHP-library for interactions with Yandex.Fotki / PHP реализация API для работы с сервисом Яндекс.Фотки",
+            "keywords": [
+                "api",
+                "fotki",
+                "yandex"
+            ],
+            "support": {
+                "source": "https://github.com/yandex-php/php-yandex-fotki",
+                "issues": "https://github.com/yandex-php/php-yandex-fotki/issues",
+                "wiki": "https://github.com/yandex-php/php-yandex-fotki/wiki"
+            },
+            "time": "2017-08-10 07:21:06"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "beta",
+    "stability-flags": {
+        "yandex/fotki": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.4.0"
+    },
+    "platform-dev": []
+}
